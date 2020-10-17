@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favourite Destination</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="text-center">My Favourite Destinations</h1>
+    <h3 class="text-center w-50 p-3 mx-auto">
+      toggle the list of my favourite destination
+    </h3>
+    <div
+      class="list-group border border-secondary w-50 p-3 mx-auto div-destination"
+      id="div-des"
+    >
+      <a href="#" class="list-group-item list-group-item-action"> Faro </a>
+      <a href="#" class="list-group-item list-group-item-action">Mykonos</a>
+      <a href="#" class="list-group-item list-group-item-action">London</a>
+      <a href="#" class="list-group-item list-group-item-action">BoraBora</a>
+      <a href="#" class="list-group-item list-group-item-action">Maldive</a>
+    </div>
+    <div><p class="selected-Destination text-center" id="message"></p></div>
+    <div class="w-25 p-3 mx-auto">
+      <button
+        type="button"
+        class="btn btn-success btn-lg"
+        onclick="hideDestination()"
+      >
+        <p id="p-des">Hide Destination</p>
+      </button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
