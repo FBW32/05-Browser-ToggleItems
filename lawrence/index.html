@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Destinations</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .colChange{
+        background-color: rgb(122, 178, 204);
+    }
+
+    h3{
+        background-color: rgb(73, 103, 110);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+   
+    .hide{
+        display: none;
+    }
+    li{
+        font-family: sans-serif;
+        list-style: none;
+        padding: 10px;
+        border: 1px solid gray;
+    }
+</style>
+<body>
+    <h1 id="heading">My Favorite Destination</h1>
+    
+        <h3>Toggle the list of my destination</h3>    
+       
+     <div class="list">
+        <ul class="hide">
+            <li class="colChange">Rome</li>
+            <li>Athens</li>
+            <li>Bangkok</li>
+            <li>Amsterdam</li>
+            <li>Cala Gonone</li>
+        </ul>
+    <button>Show destination</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
